@@ -2082,6 +2082,17 @@
 		)
 		(uuid "77c04328-e86f-4db3-9835-ebe04add2fe2")
 	)
+	(text "ISSUE #2 FIX\nRX TX SWAP"
+		(exclude_from_sim no)
+		(at 99.822 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d61a7f71-7f87-4122-812d-20c15b29946e")
+	)
 	(text "You already have one,\ndude"
 		(exclude_from_sim no)
 		(at 229.616 61.468 0)
@@ -2156,7 +2167,7 @@
 		(uuid "f4250cab-6727-4e43-835c-7371f7142605")
 	)
 	(bus_entry
-		(at 100.33 78.74)
+		(at 115.57 74.93)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2345,7 +2356,7 @@
 		(uuid "e28136d5-cb69-4b22-8341-868834ccb668")
 	)
 	(bus_entry
-		(at 100.33 81.28)
+		(at 115.57 77.47)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -2380,6 +2391,16 @@
 			(type default)
 		)
 		(uuid "027ce2f3-3d28-4301-93a0-0e560efb0603")
+	)
+	(wire
+		(pts
+			(xy 96.52 77.47) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c72afa-dd70-4ca2-a8e6-65e433b11b40")
 	)
 	(bus
 		(pts
@@ -2601,6 +2622,17 @@
 		)
 		(uuid "4900ddb1-cfb7-4fc9-b81b-802f32a780ca")
 	)
+	(polyline
+		(pts
+			(xy 92.964 77.978) (xy 94.234 77.724)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "498da447-a6c3-4c73-abc5-eb9e503a21a7")
+	)
 	(wire
 		(pts
 			(xy 157.48 90.17) (xy 157.48 86.36)
@@ -2793,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 97.79 81.28)
+			(xy 96.52 77.47) (xy 113.03 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2841,6 +2873,17 @@
 		)
 		(uuid "8249e0c7-3d95-4552-a34b-990392bc5b0b")
 	)
+	(polyline
+		(pts
+			(xy 92.456 76.2) (xy 92.964 77.978)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "930eaf4d-e04d-4850-ba57-38ff17692556")
+	)
 	(bus
 		(pts
 			(xy 193.04 62.23) (xy 193.04 64.77)
@@ -2873,7 +2916,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 78.74) (xy 100.33 78.74)
+			(xy 118.11 74.93) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 97.79 83.82)
+			(xy 96.52 80.01) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3153,6 +3196,27 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 80.01) (xy 81.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde1cdc4-b9d7-4245-a69b-9901a61aaa59")
+	)
+	(polyline
+		(pts
+			(xy 92.964 77.978) (xy 94.488 75.438)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "e497c595-2520-44bb-94f3-f3277b1c2e2e")
+	)
+	(wire
+		(pts
 			(xy 81.28 88.9) (xy 97.79 88.9)
 		)
 		(stroke
@@ -3163,7 +3227,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 78.74) (xy 100.33 81.28)
+			(xy 115.57 74.93) (xy 115.57 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3192,7 +3256,7 @@
 		(uuid "f5354fb2-7728-48f3-88bb-2b580af17945")
 	)
 	(label "Chainbus.TX"
-		(at 82.55 83.82 0)
+		(at 97.79 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3272,7 +3336,7 @@
 		(uuid "4e20698a-7ed7-4409-a999-467d9b369301")
 	)
 	(label "Chainbus.RX"
-		(at 82.55 81.28 0)
+		(at 97.79 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3466,7 +3530,7 @@
 	)
 	(hierarchical_label "Chainbus{UART}"
 		(shape bidirectional)
-		(at 102.87 78.74 0)
+		(at 118.11 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
